@@ -22,10 +22,6 @@ A page that details what we as a class learned over the semester.
 
 A page that will show all of Aidan's previous projects that he worked on during the 2025 spring semester, including a short description of each.
 
-# **Something Phun**
-
-A fun page (name is still a placeholder) that will probably be about something of Aidan's interest.
-
 # **Mr. J**
 
 A page (totally not for extra credit) dedicated to why we love Mr. J!

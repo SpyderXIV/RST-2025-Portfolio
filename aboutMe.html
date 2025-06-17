@@ -10,9 +10,67 @@
 <link href="/css/style.css" rel="stylesheet" type="text/css" />
   <link rel="icon" type="image/x-icon" href="/images/875208c5e981a57a39c53e6f36418074.png">
 <div class="container">
+<style>
+ .about-me {
+  max-width: 900px;     
+  margin: 4rem auto;
+  padding: 0 1.5rem;     
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+.about-me h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.about-me h2 {
+  font-size: 1.8rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.3rem;
+}
+
+.about-me p {
+  font-size: 1.1rem;
+  margin-bottom: 1.2rem;
+}
+
+.about-me a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.about-me a:hover {
+  text-decoration: underline;
+}
+
+.about-photo {
+  width: 300px;           /* smaller size */
+  height: 300px;          /* keep it square for the circle */
+  margin: 0 auto 1.5rem;  /* center horizontally and add spacing below */
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  display: block;         /* ensure the div behaves as a block */
+}
+
+.about-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+</style>
 </head>
 
 <body>
+
+  
   <nav>
          <!-- Checkbox for toggling menu -->
     <input type="checkbox" id="check">
@@ -30,17 +88,28 @@
             <li><a href="learning.html">Learning</a></li>
             <li><a href="mrJ.html">Mr. J</a></li>
             <li><a href="projects.html">Projects</a></li>
-            <li><a href="somethingPhun.html">Something Phun</a></li>
         </ul>
     </nav>
 
-    <section></section>
+    <section class="about-me">
+
+       <div class="about-photo">
+    <img src="/images/All-saints-cr1-1024x800.jpg" alt="Photo of All Saints" />
+  </div>
+
+  <h1>About Me</h1>
+  <p>Hello! My name is Aidan Paz-Burke</p>
+  
+  <p>Currently I am 18 years old, and I'm in my last year of highschool in Mr.J's Grade 12 computer science class! For me, this year has been an absolute blast! I've loved every class I've been in, and I've had many wonderful teachers over the years I've been at this school. But by far, Mr. J is easily one of my top favourite teachers!</p>
+  
+  <p>Some of my interests include, Gaming, streaming, coding, and business!</p>
+  
+  <h2>Contact</h2>
+  <p>Email: aidan.paz-burke@stu.ocsb.ca</p>
+</section>
+    
 </div>
 
-  <center>
-   
-
-  </center>
 
 </body>
 
